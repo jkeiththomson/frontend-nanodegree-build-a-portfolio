@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <meta name="description" content="Project for Udacity Front-End Web Developer nanodegree program: Build a Portfolio">
+	    <meta name="author" content="J. Keith Thomson">
+	    <title>Build a Portfolio</title>
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+	    <link href="css/style.css" rel="stylesheet">
+  	</head>
+
+	<body>
+  		<div class="container-fluid">
+
+  			<!-- HEADER -->
+	    	<header class="row">
+	    		<div class="col">
+		      		<a href="/"><img class="logo" src="img/logo.png" alt="logo"></a>
+		      	</div>
+		      	<div class="col-auto">
+			    	<h1>J. Keith Thomson</h1>
+	    			<h2>Musician, Umpire, UI Designer</h2>
+	    		</div>
+	    	</header>
+
+  			<!-- NAVBAR (from Bootstrap library) -->
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			  <a class="navbar-brand" href="#"></a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			    <div class="navbar-nav">
+			      <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+			      <a class="nav-item nav-link" href="#">About</a>
+			      <a class="nav-item nav-link" href="#">Resume</a>
+			      <a class="nav-item nav-link" href="#">Portfolio</a>
+			      <a class="nav-item nav-link" href="#">Contact</a>
+			    </div>
+			  </div>
+			</nav>
+
+			<!-- MAIN CONTENT AREA -->
+			<main>
+				<div class="row">
+					<div class="col">
+				        <img class="img-fluid hero" src="img/hero_900w.jpg" srcset="img/hero_900w.jpg 900w, img/hero_450w.jpg 450w"
+				        	sizes="100vw" alt="hero graphic: clouds on various screens">
+				    </div>
+				</div>
+				<div class="row">
+					<div class="col">
+						<div class="section-header">Professions and Hobbies</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<section class="col-12 col-sm-6 col-md-4">
+				        <img src="img/musician_600w.jpg" srcset="img/musician_600w.jpg 600w, img/musician_300w.jpg 300w"
+				        	sizes="(max-width: 575px) 100vw, (max-width: 767px) 50vw, 33.33vw"
+				        	alt="photo: three bass clarinet players">
+				    	<h3>Musician</h3>
+				    	<p><a href="http://sjws.org">http://sjws.org</a></p>
+					</section>
+					<section class="col-12 col-sm-6 col-md-4">
+				        <img src="img/baseball_600w.jpg" srcset="img/baseball_600w.jpg 600w, img/baseball_300w.jpg 300w"
+							sizes="(max-width: 575px) 100vw, (max-width: 767px) 50vw, 33.33vw"
+							alt="photo: little league umpire">
+				    	<h3>Umpire</h3>
+				    	<p><a href="#">http://brsll.org</a></p>
+				    </section>
+					<section class="col-12 col-sm-6 col-md-4">
+				        <img src="img/ui_designer_600w.jpg" srcset="img/ui_designer_600w.jpg 600w, img/ui_designer_300w.jpg 300w"
+				        	sizes="(max-width: 575px) 100vw, (max-width: 575px) 50vw, 33.33vw"
+				        	alt="screen grab: video editing app">
+				    	<h3>UI Designer</h3>
+				    	<p><a href="#">http://jkeiththomson.com</a></p>
+				    </section>
+				</div>
+			</main>
+	    <footer>
+	      <p>&copy;2018 Incredibleduc Productions</p>
+	    </footer>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
